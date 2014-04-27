@@ -466,4 +466,7 @@ obj-$(CONFIG_IOEXTENDER) += ADP5585_ioextender.o
 obj-y += htc_cpu_usage_stats.o
 obj-y += htc_lpm.o
 
+
 obj-$(CONFIG_CPU_FREQ_MSM) += cpufreq.o
+
+obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
